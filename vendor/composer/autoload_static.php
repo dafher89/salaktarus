@@ -26,11 +26,17 @@ class ComposerStaticInit9e46d8bcf3cc81242fc748c265256abd
         '0b0974a5566a1077e4f2e111341112c1' => __DIR__ . '/..' . '/zendframework/zend-diactoros/src/functions/normalize_server.php',
         '1ca3bc274755662169f9629d5412a1da' => __DIR__ . '/..' . '/zendframework/zend-diactoros/src/functions/normalize_uploaded_files.php',
         '40360c0b9b437e69bcbb7f1349ce029e' => __DIR__ . '/..' . '/zendframework/zend-diactoros/src/functions/parse_cookie_header.php',
+        'ad155f8f1cf0d418fe49e248db8c661b' => __DIR__ . '/..' . '/react/promise/src/functions_include.php',
+        '8592c7b0947d8a0965a9e8c3d16f9c24' => __DIR__ . '/..' . '/elasticsearch/elasticsearch/src/autoload.php',
         '952683d815ff0a7bf322b93c0be7e4e4' => __DIR__ . '/..' . '/chi-teck/drupal-code-generator/src/bootstrap.php',
         '801c31d8ed748cfa537fa45402288c95' => __DIR__ . '/..' . '/psy/psysh/src/functions.php',
     );
 
     public static $prefixLengthsPsr4 = array (
+        'n' => 
+        array (
+            'nodespark\\DESConnector\\' => 23,
+        ),
         'Z' => 
         array (
             'Zend\\Stdlib\\' => 12,
@@ -84,6 +90,7 @@ class ComposerStaticInit9e46d8bcf3cc81242fc748c265256abd
         'R' => 
         array (
             'Robo\\' => 5,
+            'React\\Promise\\' => 14,
         ),
         'P' => 
         array (
@@ -96,6 +103,7 @@ class ComposerStaticInit9e46d8bcf3cc81242fc748c265256abd
         'M' => 
         array (
             'Masterminds\\' => 12,
+            'MakinaCorpus\\Lucene\\' => 20,
         ),
         'L' => 
         array (
@@ -112,6 +120,8 @@ class ComposerStaticInit9e46d8bcf3cc81242fc748c265256abd
         ),
         'G' => 
         array (
+            'GuzzleHttp\\Stream\\' => 18,
+            'GuzzleHttp\\Ring\\' => 16,
             'GuzzleHttp\\Psr7\\' => 16,
             'GuzzleHttp\\Promise\\' => 19,
             'GuzzleHttp\\' => 11,
@@ -120,6 +130,8 @@ class ComposerStaticInit9e46d8bcf3cc81242fc748c265256abd
         ),
         'E' => 
         array (
+            'Elasticsearch\\' => 14,
+            'Elastica\\' => 9,
             'Egulias\\EmailValidator\\' => 23,
         ),
         'D' => 
@@ -157,6 +169,10 @@ class ComposerStaticInit9e46d8bcf3cc81242fc748c265256abd
     );
 
     public static $prefixDirsPsr4 = array (
+        'nodespark\\DESConnector\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/nodespark/des-connector/src/DESConnector',
+        ),
         'Zend\\Stdlib\\' => 
         array (
             0 => __DIR__ . '/..' . '/zendframework/zend-stdlib/src',
@@ -301,6 +317,10 @@ class ComposerStaticInit9e46d8bcf3cc81242fc748c265256abd
         array (
             0 => __DIR__ . '/..' . '/consolidation/robo/src',
         ),
+        'React\\Promise\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/react/promise/src',
+        ),
         'Psy\\' => 
         array (
             0 => __DIR__ . '/..' . '/psy/psysh/src',
@@ -325,6 +345,10 @@ class ComposerStaticInit9e46d8bcf3cc81242fc748c265256abd
         array (
             0 => __DIR__ . '/..' . '/masterminds/html5/src',
         ),
+        'MakinaCorpus\\Lucene\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/makinacorpus/php-lucene/src',
+        ),
         'League\\Container\\' => 
         array (
             0 => __DIR__ . '/..' . '/league/container/src',
@@ -340,6 +364,14 @@ class ComposerStaticInit9e46d8bcf3cc81242fc748c265256abd
         'Interop\\Container\\' => 
         array (
             0 => __DIR__ . '/..' . '/container-interop/container-interop/src/Interop/Container',
+        ),
+        'GuzzleHttp\\Stream\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/ezimuel/guzzlestreams/src',
+        ),
+        'GuzzleHttp\\Ring\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/ezimuel/ringphp/src',
         ),
         'GuzzleHttp\\Psr7\\' => 
         array (
@@ -360,6 +392,14 @@ class ComposerStaticInit9e46d8bcf3cc81242fc748c265256abd
         'Grasmash\\Expander\\' => 
         array (
             0 => __DIR__ . '/..' . '/grasmash/expander/src',
+        ),
+        'Elasticsearch\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/elasticsearch/elasticsearch/src/Elasticsearch',
+        ),
+        'Elastica\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/ruflin/elastica/src',
         ),
         'Egulias\\EmailValidator\\' => 
         array (
