@@ -1,0 +1,9 @@
+salaktarus.admin_settings_form:
+  path: '/admin/config/salaktarus/adminsettings'
+  defaults:
+    _form: '\Drupal\salaktarus\Form\SalaktarusConfigForm'
+    _title: 'SalaktarusConfigForm'
+  requirements:
+    _permission: 'acess administration pages'
+  options:
+    _admin_route: TRUE

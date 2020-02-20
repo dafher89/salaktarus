@@ -1,0 +1,6 @@
+name: Salaktarus module
+description: set of features in custom
+package: ZAFERRO
+type: module
+core: 8.x
+configure: salaktarus.admin_settings_form

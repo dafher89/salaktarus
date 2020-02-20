@@ -1,0 +1,9 @@
+<?php
+
+/**
+ * @param $account
+ */
+function salaktarus_user_login($account) {
+  $config = Drupal::config(('salaktarus.settings'));
+  Drupal::messenger()->addStatus($config->get('message'));
+}
